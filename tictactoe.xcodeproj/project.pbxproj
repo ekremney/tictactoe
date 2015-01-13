@@ -13,6 +13,9 @@
 		C3976D581A654893009C0DDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3976D571A654893009C0DDA /* Images.xcassets */; };
 		C3976D5B1A654893009C0DDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3976D591A654893009C0DDA /* LaunchScreen.xib */; };
 		C3976D671A654893009C0DDA /* tictactoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3976D661A654893009C0DDA /* tictactoeTests.swift */; };
+		C3976D731A6548AC009C0DDA /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = C3976D701A6548AC009C0DDA /* board.png */; };
+		C3976D741A6548AC009C0DDA /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = C3976D711A6548AC009C0DDA /* cross.png */; };
+		C3976D751A6548AC009C0DDA /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = C3976D721A6548AC009C0DDA /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		C3976D601A654893009C0DDA /* tictactoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tictactoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3976D651A654893009C0DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3976D661A654893009C0DDA /* tictactoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictactoeTests.swift; sourceTree = "<group>"; };
+		C3976D701A6548AC009C0DDA /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		C3976D711A6548AC009C0DDA /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		C3976D721A6548AC009C0DDA /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				C3976D501A654892009C0DDA /* AppDelegate.swift */,
 				C3976D521A654892009C0DDA /* ViewController.swift */,
+				C3976D701A6548AC009C0DDA /* board.png */,
+				C3976D711A6548AC009C0DDA /* cross.png */,
+				C3976D721A6548AC009C0DDA /* nought.png */,
 				C3976D541A654893009C0DDA /* Main.storyboard */,
 				C3976D571A654893009C0DDA /* Images.xcassets */,
 				C3976D591A654893009C0DDA /* LaunchScreen.xib */,
@@ -192,6 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3976D741A6548AC009C0DDA /* cross.png in Resources */,
+				C3976D731A6548AC009C0DDA /* board.png in Resources */,
+				C3976D751A6548AC009C0DDA /* nought.png in Resources */,
 				C3976D561A654893009C0DDA /* Main.storyboard in Resources */,
 				C3976D5B1A654893009C0DDA /* LaunchScreen.xib in Resources */,
 				C3976D581A654893009C0DDA /* Images.xcassets in Resources */,
